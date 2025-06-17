@@ -12,7 +12,7 @@ Date: [Insert Date]
 
 The final write-up, including code and interpretation of the visualizations, is available here:
 
-👉 [**View the write-up website**](https://yourusername.github.io/final-project-YOURNAME/)
+👉 [**View the write-up website**](https://pubh6199-data-viz-with-r.github.io/hw6-YOUR-TEAM-NAME/)
 
 ## 📂 Repository Structure
 
@@ -37,8 +37,8 @@ The final write-up, including code and interpretation of the visualizations, is 
 ### To render the write-up:
 
 1. Open the `.Rproj` file in RStudio.
-2. Open `index.qmd` (or `writeup.qmd`).
-3. Click **Render**.
+2. Open `index.qmd`.
+3. Click **Render**. The updated html will be saved in the `docs/` folder.
 
 ### To run the Shiny app (if applicable):
 
@@ -46,7 +46,7 @@ The final write-up, including code and interpretation of the visualizations, is 
 shiny::runApp("shiny-app")
 ```
 
-> ⚠️ Make sure any necessary data files are in `shiny-app/data/`.
+> ⚠️ Make sure any necessary data files are in `shiny-app/app-data/`.
 
 ## 🔗 Shiny App Link
 
