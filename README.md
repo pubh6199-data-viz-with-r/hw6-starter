@@ -1,63 +1,66 @@
-# Homework 5 — Maps
+# Final Project: [Insert Project Title]
 
-Welcome to Homework 5 for PUBH 6199: Maps
+Authors: [Your Full Name]  
+Course: PUBH 6199 – Visualizing Data with R  
+Date: [Insert Date]
 
-This individual assignment will count toward **7% of your final grade**.
+## 🔍 Project Overview
 
-## ✍️ Instructions
+[Write 2–3 sentences about your topic and what your project aims to explore or visualize.]
 
-1. **Clone your personal homework repo** (from GitHub Classroom):
+## 📊 Final Write-up
 
-   ```bash
-   git clone https://github.com/pubh6199-data-viz-with-r/hw4-YOUR-GITHUB-USERNAME.git
-   cd hw5-YOUR-GITHUB-USERNAME
-   ```
+The final write-up, including code and interpretation of the visualizations, is available here:
 
-2. Open the project in RStudio (open the .Rproj file or use File > Open Project). **DO NOT DOUBLE CLICK `.qmd` file to open**
+👉 [**View the write-up website**](https://yourusername.github.io/final-project-YOURNAME/)
 
-3. Edit `5-hw5.qmd`:
+## 📂 Repository Structure
 
-- Fill in your name and the current date in the YAML header.
+```plaintext
+.
+├── _quarto.yml          # Quarto configuration file
+├── .gitignore           # Files to ignore in git
+├── data/                # Cleaned data files used in project
+├── .Rproj               # RStudio project file
+├── index.qmd            # Main Quarto file for final write-up
+├── scratch/             # Scratch files for exploratory analysis         
+├── shiny-app/           # Shiny app folder (if used)
+│   ├── app.R
+|   ├── www/             # Static files for Shiny app (CSS, JS, images)
+│   └── app-data/        # Data files for Shiny app
+├── docs/                # Rendered site (auto-generated)
+└── README.md            # This file
+```
 
-- Complete each question by writing code and your answers.
+## 🛠 How to Run the Code
 
-- Click the Render button to generate `5-hw5.html`.
+### To render the write-up:
 
-4. Review your rendered file `5-hw5.html` to make sure everything looks good.
+1. Open the `.Rproj` file in RStudio.
+2. Open `index.qmd` (or `writeup.qmd`).
+3. Click **Render**.
 
-## 🚀 How to Submit
+### To run the Shiny app (if applicable):
 
-There is no submit button — your submission is complete when you push your work to GitHub.
+```r
+shiny::runApp("shiny-app")
+```
 
-After completing the assignment:
+> ⚠️ Make sure any necessary data files are in `shiny-app/data/`.
 
-    ```bash
-    # Stage and commit your work
-    git add .
-    git commit -m "Final submission for HW5"
+## 🔗 Shiny App Link
 
-    # Push it to GitHub
-    git push origin main
-    ```
-Double check on GitHub:
+If your project includes a Shiny app, you can access it here:
 
-- Go to your repo in a browser
-- Confirm the latest commit includes all files
-- View the rendered 5-hw5.html if needed, you may need to download the file to view it.
+👉 [https://yourusername.shinyapps.io/your-app-name](https://yourusername.shinyapps.io/your-app-name)
 
-⏰ Only the latest commit before the deadline will be graded (unless extensions apply). Commits after the deadline will be marked as late.
+## 📦 Packages Used
 
-## 📦 Files in this repo
+- `tidyverse`
+- `ggplot2`
+- `quarto`
+- `shiny` (if applicable)
 
-- `5-hw5.qmd` — the Quarto assignment file
-- `README.md` — this file
-- `.Rproj` – Project file for RStudio users
-- `.gitignore` — a file that tells Git to ignore certain files (e.g., data files)
+## ✅ To-Do or Known Issues
 
-## 🐤 Need Help?
-
-- Use the [Quarto docs](https://quarto.org/) for formatting tips and themes
-
-- Ask questions on Slack or come to office hours
-
-Happy coding!
+[Optional section for you to note improvements or bugs.]
